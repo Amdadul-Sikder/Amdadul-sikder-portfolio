@@ -1,0 +1,36 @@
+.about-img{
+    width: 400px;
+    border: 2px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+.about-img-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+.heading{
+    position: relative;
+}
+.heading::after{
+    content: "";
+    height: 3px;
+    width: 200px;
+    background-color: #333;
+    position: absolute;
+    margin-left: -200px;
+    bottom: -2px;
+}
+.social-links{
+    margin-top: 20px;
+}
+.social-icon{
+    padding: 10px;
+    font-size: 20px;
+}
