@@ -14,7 +14,7 @@ const Services = () => {
                         <h1 className="heading">SERVICES</h1>
                     </div>
                 </div>
-                <div className="row text-center">
+                <div className="row text-center mb-5">
                     <div className="col-lg-4">
                         <div className="single-services">
                             <div className="icon">

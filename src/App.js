@@ -7,6 +7,7 @@ import Projects from './components/Projects/Projects';
 import Services from './components/Services/Services';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
